@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 function PokemonComponent() {
+  console.log("pokemon component start!!");
   const [pokemonName, setPokemonName] = useState("");
 
   // useEffect guarantees that it will run after the UI has rendered.
@@ -19,7 +20,7 @@ function PokemonComponent() {
     // That is the reason why we need some sort of mechanism which makes sure
     // that we do any so called "EFFECTS" thing only after rendering basic UI.
     // And that mechanism is nothing but "useEffect()".
-  }, []);
+  }, [pokemonName]);
 
   return (
     <>

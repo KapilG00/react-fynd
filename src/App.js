@@ -10,6 +10,8 @@ import Parent from "./2. Communication/Siblings/Parent";
 // import Parent from "./2. Communication/ChildToParent/Parent";
 // import Parent from "./2. Communication/ParentToChild/Parent";
 import UseEffectTestComponent from "./1. BasicReact/TestComponent/UseEffectTestComponent";
+import UseEffectTestCleanupComponent from "./1. BasicReact/TestComponent/UseEffectTestCleanupComponent";
+import MultipleUseEffectComponent from "./1. BasicReact/TestComponent/MultipleUseEffectComponent";
 
 const studentsList = [
   {
@@ -50,7 +52,9 @@ function App() {
       </HigherOrderComponent> */}
       {/* <PokemonComponent /> */}
       {/* <Parent /> */}
-      <UseEffectTestComponent />
+      {/* <UseEffectTestComponent /> */}
+      {/* <UseEffectTestCleanupComponent /> */}
+      <MultipleUseEffectComponent />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 function UseEffectTestComponent() {
+  console.log("start of the component!!");
   useEffect(() => {
     console.log("INSIDE useEffect!!");
   }, []);
