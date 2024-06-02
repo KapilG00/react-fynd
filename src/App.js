@@ -17,7 +17,14 @@ import Parent from "./4. LifeCycleOfComponent/MountingUpdateUnmountingPhase/Pare
 import PokemonDataComponent from "./5. HookUseEffect/HookUseEffect";
 import UseEffectHookFlavours from "./5. HookUseEffect/UseEffectHookExplanation";
 import DigitalClock from "./6. DigitalClock/DigitalClock";
+import Form from "./7. Forms/Form";
 import { useState } from "react";
+import WelcomeDialog from "./14. CompositionVsInheritance/WelcomeDialog";
+import UseRefHook from "./8. useRefHook/Basic/UseRefHook";
+import ShowPrevValueWithLatest from "./8. useRefHook/Usage/ShowPrevValueWithLatest";
+import AutoFocusInputFormComponent from "./8. useRefHook/Usage/AutoFocusInputFormComponent";
+import UseReducerExample from "./9. useReducerHook/Usage/UseReducerExample";
+import RoutingApp from "./10. RoutingApp/RoutingApp";
 
 const studentsList = [
   {
@@ -78,8 +85,13 @@ function App() {
           Button inside App component
         </button>
       </div> */}
-
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      {/* <Form /> */}
+      {/* <WelcomeDialog /> */}
+      {/* <UseRefHook /> */}
+      {/* <ShowPrevValueWithLatest /> */}
+      {/* <AutoFocusInputFormComponent /> */}
+      {/* <UseReducerExample /> */}
     </div>
   );
 }
