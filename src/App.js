@@ -19,12 +19,14 @@ import UseEffectHookFlavours from "./5. HookUseEffect/UseEffectHookExplanation";
 import DigitalClock from "./6. DigitalClock/DigitalClock";
 import Form from "./7. Forms/Form";
 import { useState } from "react";
-import WelcomeDialog from "./14. CompositionVsInheritance/WelcomeDialog";
+import WelcomeDialog from "./14. CompositionVsInheritance/Type 1/WelcomeDialog";
 import UseRefHook from "./8. useRefHook/Basic/UseRefHook";
 import ShowPrevValueWithLatest from "./8. useRefHook/Usage/ShowPrevValueWithLatest";
 import AutoFocusInputFormComponent from "./8. useRefHook/Usage/AutoFocusInputFormComponent";
 import UseReducerExample from "./9. useReducerHook/Usage/UseReducerExample";
 import RoutingApp from "./10. RoutingApp/RoutingApp";
+import MyApp from "./14. CompositionVsInheritance/Type 2/components/MyApp";
+import TeaSet from "./Tea";
 
 const studentsList = [
   {
@@ -54,7 +56,7 @@ function App() {
 
   return (
     <div>
-      <h1>Hello there!!</h1>
+      {/* <h1>Hello there!!</h1> */}
       {/* <CounterComponent />
       <ConditionalRendering />
       <ListComponent students={studentsList} /> */}
@@ -92,6 +94,9 @@ function App() {
       {/* <ShowPrevValueWithLatest /> */}
       {/* <AutoFocusInputFormComponent /> */}
       {/* <UseReducerExample /> */}
+      {/* <MyApp /> */}
+
+      <TeaSet />
     </div>
   );
 }

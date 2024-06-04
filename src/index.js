@@ -12,13 +12,13 @@ import RoutingApp from "./10. RoutingApp/RoutingApp";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  // <App />
+  <App />
   // </React.StrictMode>
   // <Provider store={store}>
   //   <Counter />
   // </Provider>
 
-  <BrowserRouter>
-    <RoutingApp />
-  </BrowserRouter>
+  // <BrowserRouter>
+  //   <RoutingApp />
+  // </BrowserRouter>
 );
