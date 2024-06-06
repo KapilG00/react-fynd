@@ -26,7 +26,7 @@ import AutoFocusInputFormComponent from "./8. useRefHook/Usage/AutoFocusInputFor
 import UseReducerExample from "./9. useReducerHook/Usage/UseReducerExample";
 import RoutingApp from "./10. RoutingApp/RoutingApp";
 import MyApp from "./14. CompositionVsInheritance/Type 2/components/MyApp";
-import TeaSet from "./Tea";
+import ParentFR from "./15. Forwarding Refs/ParentFR";
 
 const studentsList = [
   {
@@ -95,8 +95,8 @@ function App() {
       {/* <AutoFocusInputFormComponent /> */}
       {/* <UseReducerExample /> */}
       {/* <MyApp /> */}
-
-      <TeaSet />
+      {/* <TeaSet /> */}
+      <ParentFR />
     </div>
   );
 }
