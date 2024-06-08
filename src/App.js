@@ -13,7 +13,7 @@ import UseEffectTestComponent from "./1. BasicReact/TestComponent/UseEffectTestC
 import UseEffectTestCleanupComponent from "./1. BasicReact/TestComponent/UseEffectTestCleanupComponent";
 import MultipleUseEffectComponent from "./1. BasicReact/TestComponent/MultipleUseEffectComponent";
 import Calculator from "./1. BasicReact/LiftingStateUp/Calculator";
-import Parent from "./4. LifeCycleOfComponent/MountingUpdateUnmountingPhase/Parent";
+// import Parent from "./4. LifeCycleOfComponent/MountingUpdateUnmountingPhase/Parent";
 import PokemonDataComponent from "./5. HookUseEffect/HookUseEffect";
 import UseEffectHookFlavours from "./5. HookUseEffect/UseEffectHookExplanation";
 import DigitalClock from "./6. DigitalClock/DigitalClock";
@@ -27,6 +27,12 @@ import UseReducerExample from "./9. useReducerHook/Usage/UseReducerExample";
 import RoutingApp from "./10. RoutingApp/RoutingApp";
 import MyApp from "./14. CompositionVsInheritance/Type 2/components/MyApp";
 import ParentFR from "./15. Forwarding Refs/ParentFR";
+import Notes from "./Notes app/Notes";
+import NotesLocalStorage from "./Notes app/NotesWithLocalStorage";
+import ContextApiReactApp from "./11. ContextApi/ContextApiReactApp";
+// import Parent from "./13. Performance/NoProps/Parent";
+// import Parent from "./13. Performance/ValueProps/Parent";
+import Parent from "./13. Performance/FunctionProps/Parent";
 
 const studentsList = [
   {
@@ -96,7 +102,11 @@ function App() {
       {/* <UseReducerExample /> */}
       {/* <MyApp /> */}
       {/* <TeaSet /> */}
-      <ParentFR />
+      {/* <ParentFR /> */}
+      {/* <Notes /> */}
+      {/* <NotesLocalStorage /> */}
+      {/* <ContextApiReactApp /> */}
+      <Parent />
     </div>
   );
 }
